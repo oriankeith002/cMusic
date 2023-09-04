@@ -15,7 +15,7 @@ const MenuPlaylist = () => {
             <div className="playListScroll">
                 {
                     PlayList && PlayList.map((pitem) => (
-                        <div className="playList">
+                        <div key={pitem.id} className="playList">
                             <i className="list"><BsMusicNoteList /></i>
                             <p>{pitem.name}</p>
                             <i className="trash"><BsTrash /></i>
