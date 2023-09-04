@@ -8,7 +8,7 @@ const LeftMenu = () => {
         <div className="leftMenu">
             <div className="logoContainer">
                 <i><FaSpotify /></i>
-                <h2>CwMusic Inc</h2>
+                <h2>CMusic</h2>
                 <i><FaEllipsisH /></i>
             </div>
             <div className="searchBox"></div>
