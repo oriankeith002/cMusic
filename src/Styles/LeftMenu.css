@@ -129,3 +129,61 @@
     color: #f1f1f1;
     transition: 0.3s;
 } 
+
+
+.playlistContainer {
+    cursor: pointer;
+    margin: 15px 0;
+}
+
+.playlistContainer .nameContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #848484;
+    margin-bottom: 10px;
+}
+
+.playlistContainer .nameContainer p {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight:bold;
+}
+
+.playlistContainer .nameContainer i{
+    cursor: pointer;
+    color: #f1f1f1;
+} 
+
+.playlistContainer .playListScroll {
+    height: 140px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    position:relative;
+}
+
+.playlistContainer .playListScroll .playList {
+    display: flex;
+    align-items: center;
+    color: #848484;
+    margin: 10px 0;
+}
+
+.playlistContainer .playListScroll .playList i {
+    font-size: 18px;
+} 
+
+.playlistContainer .playListScroll .playList .list {
+    margin-right: 15px;
+}
+
+.playlistContainer .playListScroll .playList .trash {
+    margin-left: auto;
+} 
+
+.playlistContainer .playListScroll .playList p{
+    font-size: 16px;
+    text-overflow: ellipsis; /* jue... */
+    overflow: hidden;
+    display: inline;
+}

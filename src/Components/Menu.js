@@ -22,7 +22,7 @@ const Menu = ({title, menuObject}) => {
             <ul>
                 {
                     menuObject && menuObject.map((item) => (
-                        <li>
+                        <li key={item.id}>
                             <a href="#">
                                 <i>{item.icon}</i>
                                 <span>{item.name}</span>
